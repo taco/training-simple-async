@@ -1,0 +1,24 @@
+{
+  "name": "training-simple-async",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taco/training-simple-async.git"
+  },
+  "author": "Travis Johnson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taco/training-simple-async/issues"
+  },
+  "homepage": "https://github.com/taco/training-simple-async",
+  "dependencies": {
+    "bluebird": "^2.9.34",
+    "cli-color": "^1.0.0",
+    "yargs": "^3.16.1"
+  }
+}
