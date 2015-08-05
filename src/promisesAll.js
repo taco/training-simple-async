@@ -1,5 +1,4 @@
 var fetch = require('./util/fetch');
-var Promise = require('bluebird');
 
 module.exports = function() {
 	var calls = ['/meals', '/categories', '/attributes'].map(function(url) {
