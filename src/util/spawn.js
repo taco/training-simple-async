@@ -1,5 +1,5 @@
 
-export default function (generatorFunc) {
+module.exports = function (generatorFunc) {
   function continuer(verb, arg) {
     var result;
     try {

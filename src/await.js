@@ -1,16 +1,16 @@
-import {promise as fetch} from "./util/fetch"
+var fetch = require('./util/fetch')
 
 async function loadMeals() {
-	let meals = await fetch('/meals');
-	let catagories = await fetch('/catagories');
-	let attributes = await fetch('/attributes');
+	let meals = await fetch.promise('/meals');
+	let catagories = await fetch.promise('/catagories');
+	let attributes = await fetch.promise('/attributes');
 
 	console.log('meals', meals);
 	console.log('catagories', catagories);
 	console.log('attributes', attributes);
 };
 
-export default function() {
+module.exports = function() {
 
 	(async function() {
 		console.log('start async');

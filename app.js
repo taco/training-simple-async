@@ -4,8 +4,8 @@ var async = require('./src/async');
 var asyncTree = require('./src/asyncTree');
 var promisesAll = require('./src/promisesAll');
 var promisesTree = require('./src/promisesTree');
-import generators from './src/generators';
-import await from './src/await';
+var generators = require('./src/generators');
+var await = require('./src/await');
 
 
 var operation = cmdargs._[0];
