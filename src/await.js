@@ -1,6 +1,4 @@
 import {promise as fetch} from "./util/fetch"
-import spawn from "./util/spawn"
-
 
 async function loadMeals() {
 	let meals = await fetch('/meals');
