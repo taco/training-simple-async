@@ -1,11 +1,11 @@
 var cmdargs = require('yargs').argv;
-var sync = require('./lib/sync');
-var async = require('./lib/async');
-var asyncTree = require('./lib/asyncTree');
-var promisesAll = require('./lib/promisesAll');
-var promisesTree = require('./lib/promisesTree');
-import generators from './lib/generators';
-import await from './lib/await';
+var sync = require('./src/sync');
+var async = require('./src/async');
+var asyncTree = require('./src/asyncTree');
+var promisesAll = require('./src/promisesAll');
+var promisesTree = require('./src/promisesTree');
+import generators from './src/generators';
+import await from './src/await';
 
 
 var operation = cmdargs._[0];

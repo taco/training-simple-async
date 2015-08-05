@@ -1,4 +1,4 @@
-var fetch = require('./fetch');
+var fetch = require('./util/fetch');
 
 module.exports = function() {
 	console.log('Making Sync calls');

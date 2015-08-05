@@ -1,4 +1,4 @@
-var fetch = require('./fetch');
+var fetch = require('./util/fetch');
 var Promise = require('bluebird');
 
 module.exports = function() {

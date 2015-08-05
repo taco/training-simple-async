@@ -1,5 +1,5 @@
-import {promise as fetch} from "./fetch"
-import spawn from "./spawn"
+import {promise as fetch} from "./util/fetch"
+import spawn from "./util/spawn"
 
 
 async function loadMeals() {
